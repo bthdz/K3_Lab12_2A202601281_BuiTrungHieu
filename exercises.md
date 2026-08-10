@@ -49,7 +49,7 @@ docker images | grep agent
 | 1 stage (bản đầu) | 1020 MB |
 | Multi-stage | 270 MB |
 
-Phần dung lượng chênh lệch (~750MB) chính là các công cụ build/compile trong Linux base image đầy đủ, pip build cache, wheel cache và các file tạm thời phục vụ cài đặt dependency không cần thiết ở môi trường runtime.
+> *Giải thích:* Phần dung lượng chênh lệch (~750MB) chính là các công cụ build/compile trong Linux base image đầy đủ, pip build cache, wheel cache và các file tạm thời phục vụ cài đặt dependency không cần thiết ở môi trường runtime.
 
 ---
 

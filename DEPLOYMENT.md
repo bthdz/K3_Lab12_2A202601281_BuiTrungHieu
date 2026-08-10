@@ -12,8 +12,8 @@
 
 | Mục | Nội dung |
 |-----|----------|
-| Public URL | http://localhost:8000 |
-| Platform | Railway / Render / Docker Compose (Local Fallback) |
+| Public URL | https://day12-agent-production-6ef2.up.railway.app |
+| Platform | Railway |
 | Ngày deploy | 2026-03-30 |
 
 ## Biến Môi Trường Đã Set Trên Cloud
