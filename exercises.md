@@ -3,7 +3,7 @@
 > **Bài làm cá nhân.** Trả lời bằng lời của chính bạn, dựa trên những gì bạn
 > quan sát được khi chạy code — không sao chép đáp án của người khác.
 >
-> Cách trả lời: thay dòng `> *Câu trả lời của bạn*` bằng câu trả lời.
+> Cách trả lời: thay dòng mẫu bằng câu trả lời.
 > `grade.py` đếm số câu đã trả lời (15 điểm cho 10 câu).
 >
 > Họ và tên: Bùi Trung Hiếu  Mã học viên: 2A202601281
@@ -49,7 +49,7 @@ docker images | grep agent
 | 1 stage (bản đầu) | 1020 MB |
 | Multi-stage | 270 MB |
 
-> *Giải thích:* Phần dung lượng chênh lệch (~750MB) chính là các công cụ build/compile trong Linux base image đầy đủ, pip build cache, wheel cache và các file tạm thời phục vụ cài đặt dependency không cần thiết ở môi trường runtime.
+> *Phần dung lượng chênh lệch (~750MB) chính là các công cụ build/compile trong Linux base image đầy đủ, pip build cache, wheel cache và các file tạm thời phục vụ cài đặt dependency không cần thiết ở môi trường runtime.*
 
 ---
 
